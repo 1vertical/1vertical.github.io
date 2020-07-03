@@ -7,25 +7,26 @@
       	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" 
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-        crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+	crossorigin="anonymous">
 	
   <!-- Custom CSS -->
-	
+		<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
 
-	<title></title>
+
+	<title>Notes | Portfolio of Shaun Smith</title>
 </head>
 
 <body>
-<h2>My Notes</h2>
 
-<!-- Navigation -->
+	<!-- Navigation -->
 	<div class="navbar navbar-expand-md bg-dark navbar-dark">
     	<div class="container">
         	<!-- Brand -->
-        	<a class="navbar-brand" href="#">Smithling</a>
+        	<a class="navbar-brand home" href="index.html">Home</a>
 
         	<!-- Toggler/collapsible Button -->
         	<button class="navbar-toggler" 
@@ -37,41 +38,68 @@
         	<!-- Links -->
         	<div class="collapse navbar-collapse" id="MyNavbar">
             	<ul class="navbar-nav ml-auto">
-                <li class="nav-item"> <a href="/3d-portfolio.html" class="nav-link">3D</a> </li>
-		<li class="nav-item"> <a href="/about-me.html" class="nav-link">About Me</a> </li>
-                <li class="nav-item"> <a class="nav-link">Articles</a> </li>
-                <li class="nav-item"> <a class="nav-link">Games</a> </li>  
-                <li class="nav-item"> <a class="nav-link">Illustrations</a> </li>
-                <li class="nav-item"> <a class="nav-link">Prototypes</a> </li>
-		<li class="nav-item"> <a class="nav-link">Notes</a> </li>
-                <li class="nav-item"> <a class="nav-link">Social</a> </li>
-                <li class="nav-item"> <a class="nav-link">Websites</a> </li>  
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="/resume.html">Resume</a>
+							<a class="dropdown-item" href="/notes.html">Notes</a>
+							<a class="dropdown-item" href="/social.html">Social</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuProjects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="/2d-art.html">2D Art</a>
+							<a class="dropdown-item" href="/3d-art.html">3D Art</a>
+							<a class="dropdown-item" href="/prototypes.html">Game Prototypes</a>
+							<a class="dropdown-item" href="/websites.html">Websites</a>
+						</div>
+					</li>
             	</ul>
         	</div>
     	</div>
 	</div>
 
 	<div class="container">
-    	<div class="row m-1 p-1">
-        	<div id="sidebar" class="col-2">
-            	<a href="#database">Database Design</a>
-              <a href="#sas">SAS</a>
-              <a href="#programming_principles">Programming Principles</a>
-        	</div>
-        	<div id="mainbar" class="col-9">
-            	<h2>Database Design</h2>
-              <p>Lorem ispum</p>
-              
-        	</div>
-    	</div>
+	
+    	<div>
+			<h2 class="info-text text-center jumbotron">2D Art Projects</h2>
+		</div>
+		
+		<!-- Index -->
+		<div class="alert">
+			<h5 class="m-head">Index</h5>
+			<p>
+				<ul>
+					<li><a href="#" >Database Development and Theory</a></li>
+					<li><a href="#" >SAS Programming</a></li>
+					<li><a href="#" >Programming Principles</a></li>
+				</ul>			
+			</p>
+		</div>
+		
+		<!-- BACKGROUND -->
+		<div class="alert">
+			<h5 class="m-head"><a>Database Development and Theory</a></h5>
+			<p>Under construction.</p>
+			
+			<h5 class="m-head"><a>SAS Programming</a></h5>
+			<p>Under construction.</p>
+			
+			<h5 class="m-head"><a>Programming Principles</a></h5>
+			<p>Under construction.</p>
+		</div>
+
+		</div>
+		
     	<div class="text-sm-center mt-2 border-top border-black">
         	Copyright Reserved &copy 2020
     	</div>
 	</div>
 
 	<!-- JavaScript -->
-	<script asp-src-include="/lib/jquery/jquery.slim.min.js"></script>
-	<script asp-src-include="/lib/popper.js/popper.min.js"></script>
-	<script asp-src-include="/lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
