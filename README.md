@@ -7,8 +7,8 @@ This is my *ongoing* demonstration of my abilities with web technologies and tal
 - HTML
 - Bootstrap
 - CSS
-- JS (soon)
-- ASP.Net Core MVC 3 (soon)
+- JS (sample projects to be uploaded when ready)
+- ASP.Net Core MVC 3
 
 ### Media related skills:
 - Photoshop
