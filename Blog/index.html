@@ -12,10 +12,11 @@
 	crossorigin="anonymous">
 	
 	<!-- Custom CSS -->
-	<link rel="stylesheet" href="css/main.css">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
 
+	<link rel="stylesheet" href="css/main.css">
 
 	<title>BlogCube</title>
 </head>
@@ -33,42 +34,82 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-		<!-- Links -->
-		<div class="collapse navbar-collapse" id="MyNavbar">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Controls...</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="/resume.html">Go back to GitHub page</a>
-						<a class="dropdown-item" href="/notes.html">Go to Source Code</a>
-						<a class="dropdown-item" href="/social.html">Go to Contact Page</a>
-					</div>
-				</li>
-			</ul>
+			<!-- Links -->
+			<div class="collapse navbar-collapse" id="MyNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Controls</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="/resume.html">Go back to GitHub page</a>
+							<a class="dropdown-item" href="/notes.html">Go to Source Code</a>
+							<a class="dropdown-item" href="/social.html">Go to Contact Page</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class="container">
-	
-	<div class="alert">
-		<p>Feel free to have a look around my personal site. This website's code can be found on my Github page <a href="https://github.com/1vertical/1vertical.github.io" >here.</a></p>
+	<div class="container">
+
+		<section id="author-card">
+			<img class="author-image" src="images/user-shaun.png">
+			<div class="author-div">
+				<span><strong>S. Smith</strong></span>
+				<span>Regular Poster</span>
+				<span class="exp">Exp: 205 posts</span>
+			</div>
+		</section>
+		<section>
+			<h2>A Gentle Introduction to Data Analysis</h2>
+			
+			<h3>Introduction</h3>
+			<p>As someone with many interests, I find data analysis the most intriguing. Data is literally everywhere. Data analysis is one of the most useful subjects that you can master and applies to nearly all industries today with an inordinate amount of bits and bytes flinged, squeezed and pulsed around the world. But, what exactly does it entail? The next paragraphs will cover it all.</p>
+			
+			<h3>Why you should use data analytics</h3>
+			<ul>
+				<li>It helps with reducing costs</li>
+				<li>It assists with better decision making</li>
+				<li>It implements improved services</li>
+			</ul>
+			
+			<h3>What is data analytics exactly?</h3>
+
+			<p>This is the general process to data analysis...
+				<ul>
+					<li>Raw and exsiting data is inserted.</li>
+					<li>Raw data is then processed or analysed by analysts, this entails storing, organising and "mining" the data.</li>
+					<li>Resulting processed data provides insight, clarification and decisions to be made based on the data.</li>
+				</ul>				
+			</p>
+
+			<p>
+				Raw data is facts that doesn't make sense on its own and isn't usable (due to various formats, and other reasons). Therefore, needs processing.
+			</p>
+			<p>
+				Storing and organising data means that the data is stored in a clear way to make sense of it. 
+			</p>
+			<p>
+				Mining the data means to make use of various algorithms to make even more sense of the data. 
+			</p>
+			<p>
+				TL;DR of what is data analytics? <br>
+				<em>Raw data IN that is unusable, PROCESS it to make it understandable then USE the sensible data to get insight and make better decisions. </em>
+			</p>
+
+
+		</section>
+
+		
+
+		<div class="text-sm-center mt-2 border-top border-black">
+			Copyright Reserved &copy 2020 and beyond
+		</div>
 	</div>
 
-
-	<div class="alert alert-info">
-		<h4 class="text-center m-head">Thanks for your time!</h4>
-	</div>
-
-
-	<div class="text-sm-center mt-2 border-top border-black">
-		Copyright Reserved &copy 2020 and beyond
-	</div>
-</div>
-
-<!-- JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

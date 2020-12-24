@@ -1,0 +1,30 @@
+p, li{
+	font-family: garamond;
+	font-size: 1.2em;
+}
+div.author-div{
+	border-radius: 2px;
+	background-color: #DDD;
+	padding: 10px;
+}
+
+.author-card{
+	padding: 10px;
+	width: 200px;
+}
+
+
+span.exp{
+	background-color: rgb(128,180, 40);
+	color: white;
+	font-family: calibri;
+	padding: 4px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+img.user-image{
+	max-height: 10%;
+	max-width: 10%;
+	float: left;
+}
