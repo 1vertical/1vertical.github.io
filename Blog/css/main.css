@@ -17,14 +17,23 @@ div.author-div{
 span.exp{
 	background-color: rgb(128,180, 40);
 	color: white;
-	font-family: calibri;
+	font-family: oswald;
 	padding: 4px;
 	border-radius: 6px;
 	border: 1px solid black;
 }
 
-img.user-image{
+img.author-image{
 	max-height: 10%;
 	max-width: 10%;
 	float: left;
+}
+
+
+h2{
+	font-family: oswald;
+}
+
+.blog-post{
+	padding: 32px;
 }
