@@ -13,6 +13,15 @@ div.author-div{
 	width: 200px;
 }
 
+.author-image{
+	float: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 span.exp{
 	background-color: rgb(128,180, 40);
