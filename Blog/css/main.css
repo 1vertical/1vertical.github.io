@@ -46,3 +46,10 @@ h2{
 .blog-post{
 	padding: 32px;
 }
+
+.card:hover{
+	
+	border: solid black 1px;
+	border-bottom: solid black 4px;
+	
+}
