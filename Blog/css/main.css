@@ -22,6 +22,14 @@ img {
     height: auto;
 }
 
+div.panel{
+	padding: 20px;
+	margin: 10px;
+	border: silver 1px solid;
+	border-radius: 5px;
+	float: left;
+	width: 100%;
+}
 
 span.exp{
 	background-color: rgb(128,180, 40);
